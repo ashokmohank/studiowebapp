@@ -1,0 +1,47 @@
+{
+    "extends": "react-app",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "camelcase": "warn",
+        "comma-style": "warn",
+        "comma-dangle": "warn",
+        "semi": "warn",
+//        "eslint id-length": ["warn", { "min": 2, "max": 30 }], 
+        "indent": "warn",
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-multi-spaces": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "import/no-unresolved" : [1],
+        "no-extra-semi": "warn",
+        "space-before-blocks": "warn",
+        "react/prefer-es6-class": "warn",
+        "react/jsx-pascal-case": "warn",
+        "react/jsx-closing-bracket-location": "warn",
+        "jsx-quotes": "warn",
+        "react/jsx-tag-spacing": "warn",
+        "react/jsx-curly-spacing": "warn",
+        "react/jsx-wrap-multilines": "warn",
+        "react/self-closing-comp" : "warn",
+        "react/jsx-no-bind": "warn",
+        "react/require-render-return": "warn",
+        "react/sort-comp": "warn",
+        "jsx-a11y/href-no-hash": "off",
+        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
+    }
+}

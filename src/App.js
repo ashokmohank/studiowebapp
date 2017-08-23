@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+<<<<<<< HEAD
   render() {
     return (
       <div className="App">
@@ -16,6 +17,21 @@ class App extends Component {
       </div>
     );
   }
+=======
+    render() {
+        return (
+            <div className="App">
+                <div className="App-header">
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <h2>Welcome to React</h2>
+                </div>
+                <p className="App-intro">
+                  To get started, edit <code>src/App.js</code> and save to reload.
+                </p>
+            </div>
+        );
+    }
+>>>>>>> 0dcd5e4ed72133b4912df8cf7307da01b448d2a2
 }
 
 export default App;
